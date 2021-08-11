@@ -1,0 +1,12 @@
+var maiorNUM = 0; 
+for(i=0;i<10;i++){
+    var num = parseInt(prompt("num"));
+    if(i === 0){
+        maiorNUM = num;
+    }else{
+        if(num > maiorNUM){
+            maiorNUM = num;
+        }
+    }
+}
+alert(maiorNUM);
